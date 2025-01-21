@@ -1,0 +1,37 @@
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/book_social_network
+        username: luizhcgoncalves
+        password: TYquEe8zd.WVL*gazms!YeEkkQBV!kUKhyndxLNYc*zwN.zRzz
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: false
+        properties:
+            hibernate:
+                format-sql: true
+        database: postgresql
+        database-platform: org.hibernate.dialect.PostgreSQLDialect
+    mail:
+        host: localhost
+        port: 1025
+        username: luizhcgoncalves
+        password: TYquEe8zd.WVL*gazms!YeEkkQBV!kUKhyndxLNYc*zwN.zRzz
+        properties:
+            mail:
+                smtp:
+                    trust: "*"
+                auth: true
+                starttls:
+                    enable: true
+                connectiontimeout: 5000
+                timeout: 3000
+                writetimeout: 5000
+application:
+    security:
+        jwt:
+            secret-key: 6b5551d1ad716cbd2ec8ae0f6702ef7cbd9fa3dbdc20dba1347922440540320e01fc45a53d2b4ba53e24e1446141c07d2c8aec165ef101af2497996ab42795cf
+            expiration: 86400000
+    mailing:
+        frontend:
+            activation-url: http://localhost:8080/activate-account
