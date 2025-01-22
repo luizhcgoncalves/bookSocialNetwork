@@ -21,12 +21,12 @@ spring:
             mail:
                 smtp:
                     trust: "*"
-                auth: true
-                starttls:
-                    enable: true
-                connectiontimeout: 5000
-                timeout: 3000
-                writetimeout: 5000
+                    auth: true
+                    starttls:
+                        enabled: true
+                    connectiontimeout: 5000
+                    timeout: 3000
+                    writetimeout: 5000
 application:
     security:
         jwt:
@@ -34,4 +34,9 @@ application:
             expiration: 86400000
     mailing:
         frontend:
-            activation-url: http://localhost:8080/activate-account
+            activation-url: http://localhost:4200/activate-account?token=%s
+    file:
+        uploads:
+            photos-output-path: ./uploads
+server:
+    port: 8088

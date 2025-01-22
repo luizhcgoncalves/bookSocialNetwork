@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fdf2adc-e440-4527-a570-5b8332dd6113" name="Changes" comment="Book borrowing functionality implemented">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/book/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/book/BookMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/book/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/book/BookRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/book/BookResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/book/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/book/BookSpecification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/book/BorrowedBookResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/common/PageResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/exception/OperationNotPermittedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/history/BookTransactionHistoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/file/FileStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/file/FileUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/book/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/handler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/book/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/book/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/book/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/book/BookMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/book/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/book/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +66,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="dev.luizhcgoncalves.book_network.file" />
       <recent name="dev.luizhcgoncalves.book_network.exception" />
       <recent name="dev.luizhcgoncalves.book_network.book" />
       <recent name="dev.luizhcgoncalves.book_network.common" />
       <recent name="dev.luizhcgoncalves.book_network.handler" />
-      <recent name="dev.luizhcgoncalves.book_network.auth" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Book Social Network">
@@ -162,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737550952127</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Book borrowing functionality implemented">
+      <option name="closed" value="true" />
+      <created>1737569802196</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737569802196</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
