@@ -1,40 +1,32 @@
 package dev.luizhcgoncalves.book_network.role;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import dev.luizhcgoncalves.book_network.common.BaseEntity;
 import dev.luizhcgoncalves.book_network.user.User;
-import jakarta.persistence.*;
-import lombok.*;
-import org.springframework.data.annotation.CreatedDate;
-import org.springframework.data.annotation.LastModifiedDate;
-import org.springframework.data.jpa.domain.support.AuditingEntityListener;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.ManyToMany;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.experimental.SuperBuilder;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 @Getter
 @Setter
-@Builder
+@SuperBuilder
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
 @Table(name = "TB_ROLE")
-@EntityListeners(AuditingEntityListener.class)
-public class Role {
-    @Id
-    @GeneratedValue
-    private Integer id;
+public class Role extends BaseEntity {
     @Column(unique = true)
     private String name;
 
     @ManyToMany(mappedBy = "roles")
     @JsonIgnore
     private List<User> users;
-
-    @CreatedDate
-    @Column(nullable = false, updatable = false)
-    private LocalDateTime createdDate;
-
-    @LastModifiedDate
-    @Column(insertable = false)
-    private LocalDateTime lastModified;
 }

@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fdf2adc-e440-4527-a570-5b8332dd6113" name="Changes" comment="User register and authentication flow">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/book/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/common/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/common/BaseEntityModifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/feedback/Feedback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/handler/BusinessErrorCodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/handler/ExceptionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/history/BookTransactionHistory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/auth/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/auth/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/role/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/role/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/user/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,22 +53,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Book Social Network.executor&quot;: &quot;Debug&quot;,
-    &quot;JAR Application.lombok-1.18.36.jar.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Book Social Network.executor": "Run",
+    "JAR Application.lombok-1.18.36.jar.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="dev.luizhcgoncalves.book_network.handler" />
       <recent name="dev.luizhcgoncalves.book_network.auth" />
       <recent name="dev.luizhcgoncalves.book_network.email" />
       <recent name="dev.luizhcgoncalves.book_network.security" />
@@ -123,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737477306329</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="User register and authentication flow">
+      <option name="closed" value="true" />
+      <created>1737477376200</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737477376200</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
