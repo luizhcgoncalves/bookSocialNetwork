@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fdf2adc-e440-4527-a570-5b8332dd6113" name="Changes" comment="Book cover image upload functionality">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/feedback/FeedbackController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/feedback/FeedbackMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/feedback/FeedbackRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/feedback/FeedbackRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/feedback/FeedbackResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/feedback/FeedbackService.java" afterDir="false" />
+    <list default="true" id="7fdf2adc-e440-4527-a570-5b8332dd6113" name="Changes" comment="Feedback on borrowed books implemented">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/config/OpenApiConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/book/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/book/BookController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,20 +45,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Book Social Network.executor": "Run",
-    "JAR Application.lombok-1.18.36.jar.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.sourceCode.EditorConfig"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Book Social Network.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.lombok-1.18.36.jar.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.EditorConfig&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="dev.luizhcgoncalves.book_network.feedback" />
@@ -172,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737572427767</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Feedback on borrowed books implemented">
+      <option name="closed" value="true" />
+      <created>1737575041991</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737575041991</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +194,7 @@
     <MESSAGE value="Application auditing" />
     <MESSAGE value="Book borrowing functionality implemented" />
     <MESSAGE value="Book cover image upload functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Book cover image upload functionality" />
+    <MESSAGE value="Feedback on borrowed books implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feedback on borrowed books implemented" />
   </component>
 </project>
