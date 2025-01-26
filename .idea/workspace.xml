@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fdf2adc-e440-4527-a570-5b8332dd6113" name="Changes" comment="Feedback on borrowed books implemented">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/config/OpenApiConfig.java" afterDir="false" />
+    <list default="true" id="7fdf2adc-e440-4527-a570-5b8332dd6113" name="Changes" comment="OpenApi Documentation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/feedback/FeedbackMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/feedback/FeedbackMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737575041991</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="OpenApi Documentation">
+      <option name="closed" value="true" />
+      <created>1737915491643</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1737915491643</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +203,7 @@
     <MESSAGE value="Book borrowing functionality implemented" />
     <MESSAGE value="Book cover image upload functionality" />
     <MESSAGE value="Feedback on borrowed books implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feedback on borrowed books implemented" />
+    <MESSAGE value="OpenApi Documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="OpenApi Documentation" />
   </component>
 </project>
