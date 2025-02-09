@@ -1,6 +1,7 @@
 package dev.luizhcgoncalves.book_network.handler;
 
 import dev.luizhcgoncalves.book_network.exception.OperationNotPermittedException;
+import io.swagger.v3.oas.annotations.Hidden;
 import jakarta.mail.MessagingException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

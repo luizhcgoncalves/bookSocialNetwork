@@ -4,14 +4,285 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fdf2adc-e440-4527-a570-5b8332dd6113" name="Changes" comment="OpenApi Documentation">
+    <list default="true" id="7fdf2adc-e440-4527-a570-5b8332dd6113" name="Changes" comment="Angular project corrected and authentication pages implemented">
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/pages/activate-account/activate-account.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/pages/activate-account/activate-account.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/pages/activate-account/activate-account.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/pages/activate-account/activate-account.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/pages/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/pages/login/login.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/pages/login/login.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/pages/register/register.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/pages/register/register.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/pages/register/register.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/pages/register/register.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/api-configuration.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/api.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/base-service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/fn/authentication/authenticate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/fn/authentication/confirm.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/fn/authentication/register.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/fn/book/approve-return-borrowed-book.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/fn/book/borrow-book.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/fn/book/find-a-ll-returned-books.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/fn/book/find-all-books.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/fn/book/find-all-borrowed-books.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/fn/book/find-all-by-books-by-owner.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/fn/book/find-book-by-id.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/fn/book/return-borrowed-book.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/fn/book/save-book.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/fn/book/update-archived-status.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/fn/book/update-shareable-status.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/fn/book/upload-book-cover-picture.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/fn/feedback/find-all-feedbacks-by-book.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/fn/feedback/save-feedback.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/models.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/models/authentication-request.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/models/authentication-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/models/book-request.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/models/book-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/models/borrowed-book-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/models/feedback-request.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/models/feedback-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/models/page-response-book-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/models/page-response-borrowed-book-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/models/page-response-feedback-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/models/registration-request.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/request-builder.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/services.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/services/authentication.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/services/book.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/services/feedback.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/strict-http-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/token/token.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/services/token/token.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/src/openapi/openapi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-social-network-ui/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/fesm2022/common.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/fesm2022/common.mjs.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/fesm2022/http.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/fesm2022/http.mjs.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/fesm2022/http/testing.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/fesm2022/http/testing.mjs.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/fesm2022/testing.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/fesm2022/testing.mjs.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/fesm2022/upgrade.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/fesm2022/upgrade.mjs.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/http/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/http/testing/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/af-NA.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/af-NA.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/af.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/af.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/agq.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/agq.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ak.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ak.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/am.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/am.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-AE.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-AE.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-BH.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-BH.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-DJ.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-DJ.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-DZ.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-DZ.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-EG.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-EG.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-EH.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-EH.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-ER.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-ER.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-IL.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-IL.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-IQ.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-IQ.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-JO.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-JO.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-KM.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-KM.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-KW.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-KW.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-LB.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-LB.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-LY.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-LY.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-MA.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-MA.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-MR.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-MR.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-OM.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-OM.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-PS.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-PS.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-QA.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-QA.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-SA.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-SA.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-SD.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-SD.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-SO.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-SO.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-SS.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-SS.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-SY.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-SY.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-TD.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-TD.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-TN.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-TN.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-YE.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar-YE.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ar.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/as.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/as.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/asa.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/asa.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ast.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ast.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/az-Cyrl.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/az-Cyrl.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/az-Latn.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/az-Latn.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/az.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/az.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/bas.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/bas.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/be-tarask.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/be-tarask.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/be.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/be.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/bem.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/bem.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/bez.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/bez.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/bg.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/bg.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/bm.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/bm.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/bn-IN.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/bn-IN.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/bn.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/bn.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/bo-IN.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/bo-IN.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/bo.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/bo.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/br.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/br.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/brx.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/brx.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/bs-Cyrl.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/bs-Cyrl.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/bs-Latn.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/bs-Latn.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/bs.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/bs.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ca-AD.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ca-AD.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ca-ES-valencia.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ca-ES-valencia.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ca-FR.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ca-FR.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ca-IT.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ca-IT.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ca.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ca.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ccp-IN.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ccp-IN.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ccp.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ccp.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ce.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ce.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ceb.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ceb.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/cgg.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/cgg.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/chr.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/chr.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ckb-IR.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ckb-IR.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ckb.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/ckb.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/cs.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/cs.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/cy.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/cy.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/da-GL.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/da-GL.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/da.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/da.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/dav.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/dav.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/de-AT.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/de-AT.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/de-BE.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/de-BE.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/de-CH.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/de-CH.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/de-IT.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/de-IT.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/de-LI.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/de-LI.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/de-LU.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/de-LU.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/de.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/de.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/dje.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/dje.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/doi.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/@angular/common/locales/doi.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/feedback/FeedbackMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/feedback/FeedbackMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/book-social-network-ui/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/book-social-network-ui/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-social-network-ui/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.config.server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/app/app.routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/pages/login/login.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/book-social-network-ui/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/book-social-network-ui/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/main.server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/book-social-network-ui/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-social-network-ui/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-network-ui/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/config/BeansConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/config/BeansConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/handler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/luizhcgoncalves/book_network/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EditorConfigPreviewManager">
+    <editorConfig file="$PROJECT_DIR$/book-network-ui/.editorconfig" previewFile="$PROJECT_DIR$/book-network-ui/src/openapi/openapi.json" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,7 +327,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.EditorConfig&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -182,8 +453,19 @@
       <option name="project" value="LOCAL" />
       <updated>1737915491643</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Angular project configured">
+      <option name="closed" value="true" />
+      <created>1737916882986</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1737916882986</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ts" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -204,6 +486,8 @@
     <MESSAGE value="Book cover image upload functionality" />
     <MESSAGE value="Feedback on borrowed books implemented" />
     <MESSAGE value="OpenApi Documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="OpenApi Documentation" />
+    <MESSAGE value="Angular project configured" />
+    <MESSAGE value="Angular project corrected and authentication pages implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Angular project corrected and authentication pages implemented" />
   </component>
 </project>
