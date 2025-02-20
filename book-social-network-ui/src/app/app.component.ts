@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  standalone: false,
-  styleUrl: './app.component.scss'
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    standalone: false,
+    styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'book-social-network-ui';
+    title = 'book-social-network-ui';
 }
