@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fdf2adc-e440-4527-a570-5b8332dd6113" name="Changes" comment="Angular project corrected and authentication pages implemented">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-social-network-ui/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-social-network-ui/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-social-network-ui/src/app/modules/book/book.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/modules/book/book.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-social-network-ui/src/app/modules/book/pages/book-list/book-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/book-social-network-ui/src/app/modules/book/pages/book-list/book-list.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
