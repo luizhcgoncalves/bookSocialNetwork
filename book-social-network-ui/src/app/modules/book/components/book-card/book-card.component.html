@@ -1,4 +1,4 @@
-<div class="card" style="width: 20rem;">
+<div class="card border-2" style="width: 20rem;" [class.border-success]="book.shareable" [class.border-danger]="book.archived">
     <img [src]="bookCover" class="card-img-top" alt="..." height="200">
     <div class="card-body overflow-scroll">
         <h5 class="card-title fs-6 fw-bold mb-1"><i class="fa-solid fa-book"></i>&nbsp;{{book.title}}</h5>
@@ -11,17 +11,18 @@
     </div>
     <div class="card-footer d-flex gap-2 justify-content-between align-items-center">
         <div class="d-flex gap-2">
-            <i>Rating</i>
+            <app-rating [rating]="book.rate || 0"></app-rating>
+            <span class="fw-bold" *ngIf="book.rate || 0 > 0">{{book.rate}}</span>
         </div>
         <div class="d-flex gap-2" *ngIf="!manage">
-            <i (click)="onShowDetails()"class="fas fa-circle-info text-primary"></i>
-            <i (click)="onBorrow()"class="fas fa-list-check text-primary"></i>
-            <i (click)="onAddToWaitingList()"class="fas fa-heart text-primary"></i>
+            <i (click)="onShowDetails()" class="fas fa-circle-info text-primary" data-toggle="tooltip" data-placement="bottom" title="Show book details"></i>
+            <i (click)="onBorrow()" class="fas fa-list-check text-primary" data-toggle="tooltip" data-placement="bottom" title="Borrow book"></i>
+            <i (click)="onAddToWaitingList()" class="fas fa-heart text-primary" data-toggle="tooltip" data-placement="bottom" title="Add to waiting list"></i>
         </div>
         <div class="d-flex gap-2" *ngIf="manage">
-            <i (click)="onEdit()" class="fas fa-edit text-success"></i>
-            <i (click)="onShare()" class="fas fa-share-nodes text-primary"></i>
-            <i (click)="onArchive()" class="fas fa-archive text-danger"></i>
+            <i (click)="onEdit()" class="fas fa-edit text-success" data-toggle="tooltip" data-placement="bottom" title="Edit book"></i>
+            <i (click)="onShare()" class="fas fa-share-nodes text-primary" data-toggle="tooltip" data-placement="bottom" title="Share book"></i>
+            <i (click)="onArchive()" class="fas fa-archive text-danger" data-toggle="tooltip" data-placement="bottom" title="Archive book"></i>
         </div>
     </div>
 </div>
